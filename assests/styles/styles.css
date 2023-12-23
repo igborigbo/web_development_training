@@ -26,6 +26,7 @@ body {
   background: #ffffff;
   max-width: 1440px;
   line-height: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 section {
@@ -78,7 +79,6 @@ input[placeholder="Tolu"] {
 }
 .b-input {
   width: 100%;
-  min-width: 450px;
 }
 select{
   width: 100%;
@@ -155,13 +155,16 @@ footer {
 @media screen and (max-width: 450px) {
   body {
     width: fit-content;
+
   }
   .form-group {
     padding: 0.9rem;
+    width: 400px;
   }
   section {
     display: grid;
     padding: 1rem;
+
   }
   .card-text {
     display: none;
