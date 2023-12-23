@@ -157,19 +157,21 @@ footer {
     width: fit-content;
 
   }
-  .form-group {
+  .form-group{
     padding: 0.9rem;
-    width: 400px;
+    width: fit-content;
   }
-  section {
+section{
     display: grid;
     padding: 1rem;
+    width: 23rem;
 
   }
   .card-text {
     display: none;
   }
   .card {
+    width: 20.5rem;
     margin-top: 0;
   }
   .form-row {
