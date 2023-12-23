@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Development-Training</title>
+    <link rel="stylesheet" href="/assests/styles/styles.css">
+</head>
+
+<body>
+    <section class="bg">
+        <div class="card">
+            <img src="assests/images/Logo.svg" alt="">
+            <div class="card-header b-font">
+                For Individuals
+            </div>
+            <div class="card-text s-font">
+                Start benefiting from the wellness experience. For <br> companies looking on increasing productivity, and improving
+                organization wellness.
+
+            </div>
+            <div class="mobile-text">
+                <p>
+                    Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.
+                </p>
+            </div>
+        </div>
+        <form action="#">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="s-input">
+                        <label for="first-name">First Name</label>
+                        <div class="container"><input type="text" placeholder="Tolu" id="first-name" name="f-name"></div>
+                    </div>
+                    <div class="s-input">
+                        <label for="last-name">Last Name</label>
+                        <div class="container"><input type="text" placeholder="" id="last-name" name="l-name"></div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="s-input">
+                        <label for="gender">Gender</label>
+                        <div class="container"><select name="gender" id="gender" hidden>
+                            <option value="Select Here" selected hidden>Select Here</option>
+                            <option value="male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="rather not say">Rather Not Say</option>
+                        </select><img src="/assests/images/u_angle-down.svg" alt="angle-down" onclick="(FocusEvent.select)"></div>
+                    </div>
+                    <div class="s-input">
+                        <label for="d-o-b">Date of Birth</label>
+                        <div class="container"><input type="text" id="d-o-b" name="d-o-b" placeholder="Select Here" onfocus="(this.type='date')"></div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="s-input">
+                        <label for="weight">Weight (KG)</label>
+                        <div class="container"><input type="text" id="weight" placeholder="Enter Weight" name="weight"></div>
+                    </div>
+                    <div class="s-input"><label for="height">Height (CM)</label>
+                    <div class="container"><input type="text" id="height" placeholder="Enter height" name="weight"></div></div>
+                </div>
+                <div class=" b-input">
+                    <label for="activity">Activity Level</label>
+                    <div class="container"><input type="text"  id="activity" placeholder="Select Here" name="activity"> <img src="assests/images/u_angle-down.svg" alt="angle-down"></div></div>
+                <div class=" b-input">
+                    <label for="password">Password</label>
+                    <div class="container"><input type="password" name="password" id="password"><img src="/assests/images/show.svg" alt=""></div>
+                </div>
+                <button type="submit">
+                    Register
+                </button>
+                <footer class="large-footer" >By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a></footer>
+        </form>
+
+        </div>
+                                <footer class="mobile-footer">By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a
+                                        href="">Privacy Policy</a>
+                                </footer>
+    </section>
+</body>
+
+</html>
